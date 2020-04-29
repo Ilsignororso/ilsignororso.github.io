@@ -1,0 +1,166 @@
+div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative;
+ 
+}
+
+header {
+  width: 660px;
+  position:relative;
+  font-family: 'Josefin Sans', cursive;
+  color: #222;
+  background: #222;
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+
+
+img {
+  width: 310px;
+  position:relative;
+  top:0;
+  z-index:-1;
+  object-fit: cover;
+  height: 350px;
+}
+.menuBar {
+  display: inline;
+  color: white;
+  font-size: 20px
+}
+main {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color: #222;
+  position: relative;
+  top: 0px;
+}
+
+.introContainer {
+  display: flex;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  
+}
+.myNameIs {
+  position:absolute;
+  width:200px;
+  top:170px;
+  left:10%
+}
+
+.text { 
+    font-family: 'Josefin Sans', sans-serif;
+  width: 350px;
+  font-size: 12px;
+  }
+
+.firstText { 
+    font-family: 'Josefin Sans', sans-serif;
+  width: 350px;
+  position: relative;
+  right: -20px;
+  
+  
+  
+  }
+
+.quote {
+  font-family: 'Abril Fatface', cursive;
+  margin: 10px;
+  width: 210px;
+  background: #222;
+  font-size: 43px;
+  color: white;
+  padding: 40px;
+  padding-left: 60px;
+  position:relative;
+}
+
+.quote::before {
+  content: '“';
+  font-size:150px;
+  position: absolute;
+  top:-40px;
+  left:0px;
+  }
+
+.Hi {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-size: 20px;
+}
+.Anakin {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-size: 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size:20px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+h4 {
+  font-size: 19px;
+}
+h5 {
+      font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -20px;
+  font-weight: 500;
+  
+}
+
+footer {
+  
+    font-family: 'Josefin Sans', sans-serif;
+
+  width:600px;
+  margin-top:30px;
+  border-top: 3px black solid;
+  padding:0 25px;
+  position: relative;
+  bottom:0px;
+}
+ul {
+  list-style-type: square;
+}
+footer ul {
+  font-size:12px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.quote-column {
+  display:flex;
+  justify-content: space-between;
+  height: 1500px;
+}
+
+.text-column {
+  height: 1500px;
+  display: flex;
+  justify-content: space-around;
+}

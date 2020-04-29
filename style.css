@@ -1,0 +1,27 @@
+h1 {
+    color: navajowhite;
+    background: navy;
+    margin: auto;
+    padding: 10px 50px;
+}
+a {
+    display: block;
+    margin: auto;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+}
+div {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+}
+p {
+    margin: 20px auto;
+}
