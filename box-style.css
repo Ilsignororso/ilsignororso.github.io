@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    margin: 10px auto;
+}
+
+a {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.boxOne {
+    background: royalblue;
+}
+
+.boxTwo {
+    background: purple;
+}
+
+.rowOne {
+    border: 2px solid royalblue;
+}
+
+.rowTwo {
+    background: #EF4E39;
+    border: 2px solid royalblue;
+
+}

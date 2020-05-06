@@ -1,0 +1,13 @@
+.big {
+    color: blue;
+
+}
+
+#b325, .b326 {
+    border: 1px solid green;
+    width: 150px;
+}
+.big:not(.b329) {
+    background: yellow;
+    width: 150px;
+}
